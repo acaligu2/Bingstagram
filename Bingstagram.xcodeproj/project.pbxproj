@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92E1B827225E91D500475E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1B826225E91D500475E7E /* AppDelegate.swift */; };
+		92E1B829225E91D500475E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1B828225E91D500475E7E /* ViewController.swift */; };
+		92E1B82C225E91D500475E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E1B82A225E91D500475E7E /* Main.storyboard */; };
+		92E1B82E225E91E100475E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E1B82D225E91E100475E7E /* Assets.xcassets */; };
+		92E1B831225E91E100475E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E1B82F225E91E100475E7E /* LaunchScreen.storyboard */; };
+		92E1B83C225E91E200475E7E /* BingstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1B83B225E91E200475E7E /* BingstagramTests.swift */; };
+		92E1B847225E91E200475E7E /* BingstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1B846225E91E200475E7E /* BingstagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92E1B838225E91E200475E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E1B81B225E91D500475E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E1B822225E91D500475E7E;
+			remoteInfo = Bingstagram;
+		};
+		92E1B843225E91E200475E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92E1B81B225E91D500475E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92E1B822225E91D500475E7E;
+			remoteInfo = Bingstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92E1B823225E91D500475E7E /* Bingstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bingstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E1B826225E91D500475E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92E1B828225E91D500475E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92E1B82B225E91D500475E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92E1B82D225E91E100475E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92E1B830225E91E100475E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92E1B832225E91E100475E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E1B837225E91E200475E7E /* BingstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E1B83B225E91E200475E7E /* BingstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingstagramTests.swift; sourceTree = "<group>"; };
+		92E1B83D225E91E200475E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E1B842225E91E200475E7E /* BingstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E1B846225E91E200475E7E /* BingstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingstagramUITests.swift; sourceTree = "<group>"; };
+		92E1B848225E91E200475E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92E1B820225E91D500475E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E1B834225E91E200475E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E1B83F225E91E200475E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92E1B81A225E91D500475E7E = {
+			isa = PBXGroup;
+			children = (
+				92E1B825225E91D500475E7E /* Bingstagram */,
+				92E1B83A225E91E200475E7E /* BingstagramTests */,
+				92E1B845225E91E200475E7E /* BingstagramUITests */,
+				92E1B824225E91D500475E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92E1B824225E91D500475E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92E1B823225E91D500475E7E /* Bingstagram.app */,
+				92E1B837225E91E200475E7E /* BingstagramTests.xctest */,
+				92E1B842225E91E200475E7E /* BingstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92E1B825225E91D500475E7E /* Bingstagram */ = {
+			isa = PBXGroup;
+			children = (
+				92E1B826225E91D500475E7E /* AppDelegate.swift */,
+				92E1B828225E91D500475E7E /* ViewController.swift */,
+				92E1B82A225E91D500475E7E /* Main.storyboard */,
+				92E1B82D225E91E100475E7E /* Assets.xcassets */,
+				92E1B82F225E91E100475E7E /* LaunchScreen.storyboard */,
+				92E1B832225E91E100475E7E /* Info.plist */,
+			);
+			path = Bingstagram;
+			sourceTree = "<group>";
+		};
+		92E1B83A225E91E200475E7E /* BingstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				92E1B83B225E91E200475E7E /* BingstagramTests.swift */,
+				92E1B83D225E91E200475E7E /* Info.plist */,
+			);
+			path = BingstagramTests;
+			sourceTree = "<group>";
+		};
+		92E1B845225E91E200475E7E /* BingstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92E1B846225E91E200475E7E /* BingstagramUITests.swift */,
+				92E1B848225E91E200475E7E /* Info.plist */,
+			);
+			path = BingstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92E1B822225E91D500475E7E /* Bingstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E1B84B225E91E200475E7E /* Build configuration list for PBXNativeTarget "Bingstagram" */;
+			buildPhases = (
+				92E1B81F225E91D500475E7E /* Sources */,
+				92E1B820225E91D500475E7E /* Frameworks */,
+				92E1B821225E91D500475E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bingstagram;
+			productName = Bingstagram;
+			productReference = 92E1B823225E91D500475E7E /* Bingstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92E1B836225E91E200475E7E /* BingstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E1B84E225E91E200475E7E /* Build configuration list for PBXNativeTarget "BingstagramTests" */;
+			buildPhases = (
+				92E1B833225E91E200475E7E /* Sources */,
+				92E1B834225E91E200475E7E /* Frameworks */,
+				92E1B835225E91E200475E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E1B839225E91E200475E7E /* PBXTargetDependency */,
+			);
+			name = BingstagramTests;
+			productName = BingstagramTests;
+			productReference = 92E1B837225E91E200475E7E /* BingstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92E1B841225E91E200475E7E /* BingstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E1B851225E91E200475E7E /* Build configuration list for PBXNativeTarget "BingstagramUITests" */;
+			buildPhases = (
+				92E1B83E225E91E200475E7E /* Sources */,
+				92E1B83F225E91E200475E7E /* Frameworks */,
+				92E1B840225E91E200475E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E1B844225E91E200475E7E /* PBXTargetDependency */,
+			);
+			name = BingstagramUITests;
+			productName = BingstagramUITests;
+			productReference = 92E1B842225E91E200475E7E /* BingstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92E1B81B225E91D500475E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CaligureForno;
+				TargetAttributes = {
+					92E1B822225E91D500475E7E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					92E1B836225E91E200475E7E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92E1B822225E91D500475E7E;
+					};
+					92E1B841225E91E200475E7E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92E1B822225E91D500475E7E;
+					};
+				};
+			};
+			buildConfigurationList = 92E1B81E225E91D500475E7E /* Build configuration list for PBXProject "Bingstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92E1B81A225E91D500475E7E;
+			productRefGroup = 92E1B824225E91D500475E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92E1B822225E91D500475E7E /* Bingstagram */,
+				92E1B836225E91E200475E7E /* BingstagramTests */,
+				92E1B841225E91E200475E7E /* BingstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92E1B821225E91D500475E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E1B831225E91E100475E7E /* LaunchScreen.storyboard in Resources */,
+				92E1B82E225E91E100475E7E /* Assets.xcassets in Resources */,
+				92E1B82C225E91D500475E7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E1B835225E91E200475E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E1B840225E91E200475E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92E1B81F225E91D500475E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E1B829225E91D500475E7E /* ViewController.swift in Sources */,
+				92E1B827225E91D500475E7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E1B833225E91E200475E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E1B83C225E91E200475E7E /* BingstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E1B83E225E91E200475E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E1B847225E91E200475E7E /* BingstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92E1B839225E91E200475E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E1B822225E91D500475E7E /* Bingstagram */;
+			targetProxy = 92E1B838225E91E200475E7E /* PBXContainerItemProxy */;
+		};
+		92E1B844225E91E200475E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92E1B822225E91D500475E7E /* Bingstagram */;
+			targetProxy = 92E1B843225E91E200475E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92E1B82A225E91D500475E7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92E1B82B225E91D500475E7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92E1B82F225E91E100475E7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92E1B830225E91E100475E7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92E1B849225E91E200475E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92E1B84A225E91E200475E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92E1B84C225E91E200475E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bingstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = acaligu2cforno1.Bingstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92E1B84D225E91E200475E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Bingstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = acaligu2cforno1.Bingstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92E1B84F225E91E200475E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = acaligu2cforno1.BingstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bingstagram.app/Bingstagram";
+			};
+			name = Debug;
+		};
+		92E1B850225E91E200475E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = acaligu2cforno1.BingstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bingstagram.app/Bingstagram";
+			};
+			name = Release;
+		};
+		92E1B852225E91E200475E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = acaligu2cforno1.BingstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingstagram;
+			};
+			name = Debug;
+		};
+		92E1B853225E91E200475E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BingstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = acaligu2cforno1.BingstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92E1B81E225E91D500475E7E /* Build configuration list for PBXProject "Bingstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E1B849225E91E200475E7E /* Debug */,
+				92E1B84A225E91E200475E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E1B84B225E91E200475E7E /* Build configuration list for PBXNativeTarget "Bingstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E1B84C225E91E200475E7E /* Debug */,
+				92E1B84D225E91E200475E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E1B84E225E91E200475E7E /* Build configuration list for PBXNativeTarget "BingstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E1B84F225E91E200475E7E /* Debug */,
+				92E1B850225E91E200475E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E1B851225E91E200475E7E /* Build configuration list for PBXNativeTarget "BingstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E1B852225E91E200475E7E /* Debug */,
+				92E1B853225E91E200475E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92E1B81B225E91D500475E7E /* Project object */;
+}
