@@ -98,6 +98,15 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
         }
     }
     
+    func session(_ session: MCSession, didReceive data: Data, fromPeer peerID: MCPeerID) {
+        if let image = UIImage(data: data) {
+            DispatchQueue.main.async { [unowned self] in
+                self.images.insert(image, at: 0)
+                self.collectionView?.reloadData()
+            }
+        }
+    }
+    
     func browserViewControllerDidFinish(_ browserViewController: MCBrowserViewController) {
         dismiss(animated: true)
     }
@@ -124,6 +133,17 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
         
         images.insert(image, at: 0)
         collectionView?.reloadData()
+        if mc_session.connectedPeers.count > 0 {
+            if let imageData = image.pngData() {
+                do {
+                    try mc_session.send(imageData, toPeers: mc_session.connectedPeers, with: .reliable)
+                } catch {
+                    let ac = UIAlertController(title: "Send error", message: error.localizedDescription, preferredStyle: .alert)
+                    ac.addAction(UIAlertAction(title: "OK", style: .default))
+                    present(ac, animated: true)
+                }
+            }
+        }
         
     }
 
