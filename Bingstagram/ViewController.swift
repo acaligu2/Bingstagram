@@ -13,11 +13,13 @@ import MultipeerConnectivity
 class ViewController: UICollectionViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     var images = [UIImage]()
+    
+    //NodeID
     var peer_id: MCPeerID!
+    //Manager class that handles all of multipeer stuff
     var mc_session: MCSession!
+    //class used to create a session and let other devices around know
     var mcaa: MCAdvertiserAssistant!
-    var mc_session_del: MCSessionDelegate!
-    var mc_session_del_controller: MCBrowserViewControllerDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +31,9 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
         //create a connection button
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(showConnectionPrompt))
         
-        //peer stuff
+        //creating peer id
         peer_id = MCPeerID(displayName: UIDevice.current.name)
+        //creating session
         mc_session = MCSession(peer: peer_id, securityIdentity: nil, encryptionPreference: .required)
         mc_session.delegate = self as? MCSessionDelegate
     }
@@ -65,6 +68,8 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
         present(mc_browser, animated: true)
     }
     
+    // When the button is pressed, it gives you a list of options
+    // to either join or host a photosharing session
     @IBAction func showConnectionPrompt(_ sender: Any) {
         let ac = UIAlertController(title: "Connect to others", message: nil, preferredStyle: .actionSheet)
         ac.addAction(UIAlertAction(title: "Host a BingSession", style: .default, handler: startHosting))
@@ -88,31 +93,36 @@ class ViewController: UICollectionViewController, UINavigationControllerDelegate
     func session(_ session: MCSession, peer peerID: MCPeerID, didChange state: MCSessionState) {
         switch state {
         case MCSessionState.connected:
-            print("Connected: \(peerID.displayName)")
+            NSLog("Connected: \(peerID.displayName)")
             
         case MCSessionState.connecting:
-            print("Connecting: \(peerID.displayName)")
+            NSLog("Connecting: \(peerID.displayName)")
             
         case MCSessionState.notConnected:
-            print("Not Connected: \(peerID.displayName)")
+            NSLog("Not Connected: \(peerID.displayName)")
         }
     }
     
     func session(_ session: MCSession, didReceive data: Data, fromPeer peerID: MCPeerID) {
         if let image = UIImage(data: data) {
-            DispatchQueue.main.async { [unowned self] in
-                self.images.insert(image, at: 0)
-                self.collectionView?.reloadData()
+            DispatchQueue.main.async{
+                [unowned self] in
+                    self.images.insert(image, at: 0)
+                    self.collectionView?.reloadData()
             }
         }
     }
     
     func browserViewControllerDidFinish(_ browserViewController: MCBrowserViewController) {
-        dismiss(animated: true)
+        self.dismiss(animated: true, completion: nil)
+        //browserViewController.dismiss(animated: true, completion: nil)
+        //dismiss(animated: true)
     }
     
     func browserViewControllerWasCancelled(_ browserViewController: MCBrowserViewController) {
-        dismiss(animated: true)
+        self.dismiss(animated: true, completion: nil)
+        //browserViewController.dismiss(animated: true, completion: nil)
+        //dismiss(animated: true)
     }
     
     
