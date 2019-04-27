@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67D39C952273DA5600323F1C /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D39C942273DA5600323F1C /* Billabong.ttf */; };
 		92E1B827225E91D500475E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1B826225E91D500475E7E /* AppDelegate.swift */; };
 		92E1B829225E91D500475E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E1B828225E91D500475E7E /* ViewController.swift */; };
 		92E1B82C225E91D500475E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E1B82A225E91D500475E7E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67D39C942273DA5600323F1C /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Billabong.ttf; path = ../../../Downloads/Billabong/Billabong.ttf; sourceTree = "<group>"; };
 		92E1B823225E91D500475E7E /* Bingstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bingstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E1B826225E91D500475E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92E1B828225E91D500475E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				92E1B83A225E91E200475E7E /* BingstagramTests */,
 				92E1B845225E91E200475E7E /* BingstagramUITests */,
 				92E1B824225E91D500475E7E /* Products */,
+				67D39C942273DA5600323F1C /* Billabong.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +235,7 @@
 				92E1B831225E91E100475E7E /* LaunchScreen.storyboard in Resources */,
 				92E1B82E225E91E100475E7E /* Assets.xcassets in Resources */,
 				92E1B82C225E91D500475E7E /* Main.storyboard in Resources */,
+				67D39C952273DA5600323F1C /* Billabong.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
