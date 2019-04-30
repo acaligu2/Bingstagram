@@ -1,3 +1,5 @@
 # Bingstagram
 
-Photosharing app centered around the best SUNY around
+Developed in Xcode using Swift
+
+Peer-2-Peer photosharing app
